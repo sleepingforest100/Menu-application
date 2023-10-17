@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashBoardFragment">
+
+    <fragment
+        android:id="@+id/dashBoardFragment"
+        android:name="kz.just_code.menu_application.screens.DashBoardFragment"
+        android:label="DashBoardFragment" />
+    <fragment
+        android:id="@+id/driversFragment"
+        android:name="kz.just_code.menu_application.screens.DriversFragment"
+        android:label="DriversFragment" />
+    <fragment
+        android:id="@+id/bookingFragment"
+        android:name="kz.just_code.menu_application.screens.BookingFragment"
+        android:label="BookingFragment" />
+</navigation>
